@@ -4,7 +4,7 @@ import Tasks from "./components/Tasks";
 
 function App() {
   const [task, setTask] = useState("");
-  const [tasks, setTasks] = useState(["Implement LocalStorage in Todo list app", "Work on context API", "Figure out AutoMailer"]);
+  const [tasks, setTasks] = useState(["Implement LocalStorage in Todo list app", "Work on context API", "Figure out AutoMailer", "Bug: on Update-prev text not showing"]);
   const [isUpdateSelected, setIsUpdateSelected] = useState({
     id: "",
     text: "",
